@@ -1,7 +1,1 @@
- Program Description:
- Pick cards from a shuffled deck of 52 cards repeatedly and
- find out how many picks are needed before you can see one of each
- suit. Assume a picked card is placed back in the deck before
- picking another. Write a Java program that simulates the number
- of picks needed to get four cards(one from each suit) and display
- the four cards picked.
+
