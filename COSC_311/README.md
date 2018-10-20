@@ -11,7 +11,7 @@ Formal specification of data structures and data management systems.
 
 ## Authors
 
-* **John Sprunger** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+[JohnSprunger](https://github.com/JohnSprunger)
 
 ## Acknowledgments
 
