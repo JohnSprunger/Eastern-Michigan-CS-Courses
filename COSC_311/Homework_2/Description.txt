@@ -1,0 +1,73 @@
+COSC 311 Homework 9/11/2018
+
+Singly linked list, create, traverse, delete nodes.
+
+Distributed: T 9/11/2018       Due: T 9/18/2018
+
+Write Java functions that will
+ 1. Create a singly linked list of dynamically allocated nodes from a
+ hardcoded array of doubles.
+ Note: A forward traversal of the linked list must give the data in the same
+ order as a forward traversal of the hardcoded input array.
+
+ 2. Compute the average of the values from the linked list by stepping
+ through the list using forward traversal.
+ Do not compute the average while creating the linked list in (1).
+
+ 3. Modify the linked list *in place* by deleting all elements that are less than the
+ average computed in (2) above.
+ The modification of the linked list must be done on the original list -- do not
+ create a second list from the "accepted" values of the linked list created in (1).
+
+ 4. Output the linked list.
+
+Demonstrate your Java functions work correctly be executing the following steps:
+  1. Create linked list from hardcoded array of doubles.
+
+  2. Output linked list values (forward traversal).
+
+  3. Compute average, then output average.
+
+  4. Delete elements that are greater than average using forward traversal,
+  destructive, in-place deletion of nodes.
+
+  5. Output linked list values.
+
+Outputs must include text to label the output. E.g.,
+
+Starting list:   100.0  10.0  15.0  20.0  200.0  30.0  40.0  300.0
+
+Average: 89.375
+
+Ending list:     10.0  15.0  20.0  30.0  40.0
+
+
+Constraints:
+(1) You must code up your own Node class and LinkedList class -- you can use
+  or cannibalize code provided by textbooks, Web, instructor, etc. If you use
+  or cannibalize code, cite the source (giving URL, text title, etc) in the
+  header of your source code. I may look at the original code, so give sufficient
+  information for me to be able to find it.
+
+(2) Do not use ArrayList, List, Queue, etc.
+
+(3) Traversals of the linked list and the hardcoded input array are forward.
+
+
+Points taken off for:
+(1) Doesn't work
+(2) Failure to meet style constraints
+(3) Failure to meet coding constraints
+(4) Code does not match output
+(5) Ugly or difficult to understand code
+
+Turn in:
+  -- Hard copy of code
+  -- Header must include your last name, homework identifier (hw0911), URL
+     of source code.
+  -- Screen shot showing program execution on the input array
+  { 100.0 }
+  -- Screen shot showing program execution on the input array
+  { 10.0, 100.0, 10.0}
+  -- Screen shot showing program execution on the input array
+  { 100.0,  10.0,  15.0,  20.0,  200.0,  30.0,  40.0,  300.0 }
